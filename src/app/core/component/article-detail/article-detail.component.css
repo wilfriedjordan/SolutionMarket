@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+section.produits {
+  height: 10vh;
+}
+
+div.element {
+  width: 13.6rem;
+  height: 25rem;
+  padding: 5px;
+  border-radius: 1rem;
+  background-color: rgba(241, 241, 241, 0.9450980392);
+}
+div.element div.image {
+  width: 100%;
+}
+div.element div.image img {
+  width: 100%;
+  height: 14rem;
+  border-radius: 2rem;
+}
+div.element div.info {
+  text-align: center;
+  padding-top: 10px;
+}
+div.element div.info h1 {
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+}
+div.element div.info p {
+  font-family: "open sans";
+  opacity: 0.8;
+  font-size: 1.1rem;
+}
+div.element div.info p.price {
+  color: #E3651D;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=article-detail.component.css.map */

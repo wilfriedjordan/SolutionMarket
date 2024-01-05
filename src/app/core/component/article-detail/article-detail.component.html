@@ -1,0 +1,12 @@
+<section class="produits"></section>
+<div class="element">
+  <div class="image">
+    <img [src]="article.img" alt="article.title">
+  </div>
+  <div class="info">
+    <h1>{{article.title | titlecase}}</h1>
+    <p>{{article.createAt | date :'medium'|titlecase }}</p>
+    <p>{{article.description | titlecase}}</p>
+    <p class="price">{{article.price | currency : 'EUR'}}</p>
+  </div>
+</div>
